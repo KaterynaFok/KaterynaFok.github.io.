@@ -1,0 +1,125 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+}
+
+.main {
+    position: relative;
+    margin-top: 100px;
+    opacity: 0.9;
+}
+body {
+    text-align: center;
+}
+
+nav {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    margin:0;
+}
+
+nav ul {
+    float:right;
+    margin-right: 15px;
+    padding-top: 5px;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+    float:right;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    margin-top:10px;
+    position:absolute;
+}
+
+#missioncont {
+background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*zxp5do*_ga*ODc1MzU0OTUyNi4xNjY4NjI0MjI2*_ga_3LRZM6TM9L*MTY2OTM1ODc1Ni4xNi4xLjE2NjkzNTg4MDMuMC4wLjA.");
+max-width: 1200px;
+height:700px;
+display: flex;
+background-size: cover;
+background-position: center;
+align-items: center;
+margin: 0 auto;
+margin-bottom: 55px;
+}
+ 
+#mission {
+    background-color: black;
+    width:100%;
+    flex: 1 2 auto;
+}
+
+
+#figurecont {
+    display: flex;
+    max-width: 1000px;
+    align-content: space-around;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.picture{
+    width: 300px;
+    height: 200px; 
+}
+ figcaption {
+    margin-top: 10px;
+ }
+
+ #location {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*mncjhe*_ga*ODc1MzU0OTUyNi4xNjY4NjI0MjI2*_ga_3LRZM6TM9L*MTY2OTM2NTEyNy4xNy4xLjE2NjkzNjUxNjguMC4wLjA.");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+} 
+
+.location-item {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    align-items: center;
+}
+
+#head {
+position: absolute;
+bottom: 425px;
+background-color: transparent;
+}
+footer {
+    margin-top: 50px;
+}
+
+footer {
+    min-height: 200px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#copy {
+ float:left;
+ top:20px;
+}
